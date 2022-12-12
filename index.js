@@ -9,7 +9,7 @@ async function showResultsForDay(day) {
 }
 
 async function showResults() {
-    for (let i = 1; i <=7; i++) {
+    for (let i = 1; i <=8; i++) {
         await showResultsForDay(i);
     }
 }
